@@ -1,7 +1,6 @@
 /*!
- * Darkly - Dark theme for docsify
- * Report bug/feature: https://github.com/sushantrahate/docsify-darkly-theme
-*/
+ * Tactility theme, based on Darcula > Darkly > Dark theme for docsify
+ */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,600');
 * {
   -webkit-font-smoothing: antialiased;
@@ -306,14 +305,16 @@ main.hidden {
   z-index: 4;
 }
 .sidebar-toggle .sidebar-toggle-button:hover {
-  opacity: 0.4;
+  opacity: 0.8;
+  
 }
 .sidebar-toggle span {
   background-color: var(--theme-color, #33bbff);
   display: block;
   margin-bottom: 4px;
-  width: 16px;
-  height: 2px;
+  width: 24px;
+  height: 4px;
+  text-shadow: 2px 2px;
 }
 body.sticky .sidebar,
 body.sticky .sidebar-toggle {
