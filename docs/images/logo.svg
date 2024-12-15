@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
-   sodipodi:docname="Tactility.svg"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="Tactility.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -27,7 +27,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1"
-     inkscape:cx="411.5"
+     inkscape:cx="156"
      inkscape:cy="336"
      inkscape:window-width="1503"
      inkscape:window-height="930"
@@ -230,7 +230,7 @@
          inkscape:label="Upside-down T"
          style="fill:#f876e9;fill-opacity:1" />
       <path
-         style="fill:#7777ff;fill-opacity:1;stroke-width:0.289836;paint-order:stroke fill markers"
+         style="fill:#33bbff;fill-opacity:1;stroke-width:0.289836;paint-order:stroke fill markers"
          id="rect26"
          width="60"
          height="10"
@@ -251,7 +251,7 @@
          d="M 19.96875,150 H 70 v 10 H 10 v -0.0312 A 9.96875,9.96875 135 0 1 19.96875,150 Z"
          transform="rotate(180,55,165)" />
       <path
-         style="fill:#7777ff;fill-opacity:1;stroke-width:0.264583;paint-order:stroke fill markers"
+         style="fill:#33bbff;fill-opacity:1;stroke-width:0.264583;paint-order:stroke fill markers"
          id="rect28"
          width="10"
          height="60"
