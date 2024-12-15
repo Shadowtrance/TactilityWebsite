@@ -1,6 +1,6 @@
 ![](images/menu-logo.png "Tactility Logo")
 
-- [Main](/)
+- [Main](/ "Tactility")
   - [Features](features.md)
   - [Supported Devices](supported-devices.md)
   - [Installing](installing.md)
