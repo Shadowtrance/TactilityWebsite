@@ -11,4 +11,4 @@
   - [Building Tactility](building-tactility.md)
     - [Build Scripts](build-scripts.md)
     - [Project Structure](project-structure.md)
-- [Licenses & Copyrights](LICENSE.md)
+- [Licenses & Copyrights](licenses-and-copyrights.md)
