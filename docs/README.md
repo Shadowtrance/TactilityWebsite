@@ -2,17 +2,17 @@
 
 Tactility is an operating system that is focusing on the ESP32 microcontroller.
 
+Status: pre-release
+
 ![photo of devices running Tactility](images/tactility-devices.webp)&nbsp;&nbsp;![screenshot of desktop app](images/screenshot-Desktop.png)
 
-**Status: Alpha**
+You can run built-in apps or start them from an SD card:
 
-Next to desktop functionality, Tactility makes it easy to manage system settings:
+![screenshot off app list app](images/screenshot-AppList.png)&nbsp;&nbsp;![screenshot of files app](images/screenshot-Files.png)
 
-![screenshot of settings app](images/screenshot-Settings.png) ![screenshot of wifi management app](images/screenshot-WifiManage.png)
+It's easy to manage system settings:
 
-There are also built-in apps:
+![screenshot of settings app](images/screenshot-Settings.png)&nbsp;&nbsp;![screenshot of wifi management app](images/screenshot-WifiManage.png)
 
-![screenshot off app list app](images/screenshot-AppList.png)  ![screenshot of files app](images/screenshot-Files.png)
-
-Play with the built-in apps or build your own! Use one of the supported devices or set up the drivers for your own hardware platform.
+Use one of the [supported devices](supported-devices.md) or set up the drivers for your own hardware platform.
 

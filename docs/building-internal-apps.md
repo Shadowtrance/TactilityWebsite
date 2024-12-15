@@ -7,7 +7,7 @@ It tells Tactility which functions need to be called when the app is started/sho
 UI is created with [lvgl](https://github.com/lvgl/lvgl) which has lots of [widgets](https://docs.lvgl.io/9.0/widgets/index.html)!
 Creating a touch-capable UI is [easy](https://docs.lvgl.io/9.0/get-started/quick-overview.html) and doesn't require your own render loop!
 
-```C++
+```cpp
 static void onShow(tt::app::AppContext context, lv_obj_t* parent) {
     // Default toolbar with app name and close button
     lv_obj_t* toolbar = tt::lvgl::toolbar_create(parent, context);

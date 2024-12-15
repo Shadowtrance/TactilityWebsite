@@ -17,3 +17,11 @@ Predefined configurations are available for:
 - ✅: Capable and implemented
 - ⏳: Capable but not yet implemented
 - ❌: Not capable
+
+(*) Note: Only the capacitive version is supported. See AliExpress [here][2432s024c_1] and [here][2432s024c_2].
+
+[tdeck]: https://www.lilygo.cc/products/t-deck
+[tdeckplus]: https://lilygo.cc/products/t-deck-plus
+[2432s024c_1]: https://www.aliexpress.com/item/1005005902429049.html
+[2432s024c_2]: https://www.aliexpress.com/item/1005005865107357.html
+[m5stack]: https://m5stack.com/

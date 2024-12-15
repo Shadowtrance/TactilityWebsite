@@ -2,8 +2,8 @@
 
 ## Regular or headless
 
-The `Tactility` subproject offers the entire range of features including an [LVGL](https://github.com/lvgl/lvgl)-based Touch UI.
-The alternative is `TactilityHeadless` which is meant for devices without a display.
+The [Tactility subproject](https://github.com/ByteWelder/Tactility/tree/main/Tactility) offers the entire range of features including an [LVGL](https://github.com/lvgl/lvgl)-based Touch UI.
+The alternative is [TactilityHeadless](https://github.com/ByteWelder/Tactility/tree/main/TactilityHeadless) which is meant for devices without a display.
 
 ## External Apps
 
@@ -15,4 +15,4 @@ Several applications are included to boost productivity, such as a Wi-Fi connect
 
 ## Simulator
 
-Includes a PC simulator build target to speed up development.
+Build and use the PC simulator to speed up development.

@@ -2,7 +2,17 @@
 
 The app goes through these states:
 
-![app lifecycle state diagram](images/app-lifecycle.png)
+```plantuml
+@startuml
+[*] --> onStart : app is created
+onStart --> onShow : app becomes visible
+onShow --> onHide : app is no longer visible
+onHide --> onStop : app is preparing to be destroyed
+onStop --> [*] : app is destroyed
+skinparam ranksep 25
+skinparam padding 2
+@enduml
+```
 
 Let's look at a scenario where an app launches another app:
 

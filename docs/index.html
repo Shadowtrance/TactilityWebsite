@@ -7,6 +7,11 @@
   <meta name="description" content="Tactility - An operating system for ESP32 devices">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="theme/darcula.css">
+  <link
+    rel="stylesheet"
+    media="(prefers-color-scheme: dark)"
+    href="//cdn.jsdelivr.net/npm/prism-themes@1/themes/prism-one-dark.min.css"
+  />
 </head>
 <body>
   <div id="app">Loading content...</div>
@@ -16,15 +21,16 @@
       repo: 'https://github.com/ByteWelder/Tactility',
       loadSidebar: true,
       logo: '/images/logo.svg',
-      darklightTheme: {
-        dark: {
-            accent: '#93CBF8',
-        }
-      }
+      plantuml: {
+        skin: 'classic',
+      },
     }
   </script>
-  <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//unpkg.com/docsify-puml/dist/docsify-puml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.js"></script>
 </body>
 </html>
