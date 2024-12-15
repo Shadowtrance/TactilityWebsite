@@ -10,5 +10,5 @@
   - [External Apps](building-external-apps.md)
   - [Building Tactility](building-tactility.md)
     - [Build Scripts](build-scripts.md)
-    - [Project Structure](building-project-structure.md)
+    - [Project Structure](project-structure.md)
 - [Licenses & Copyrights](LICENSE.md)
