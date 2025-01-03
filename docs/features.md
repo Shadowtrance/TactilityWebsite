@@ -16,3 +16,9 @@ Several applications are included to boost productivity, such as a Wi-Fi connect
 ## Simulator
 
 Build and use the PC simulator to speed up development.
+
+## Crash Reporting with QR
+
+Privacy-concsious crash reporting: When Tactility crashes, it reboots and shows a QR code.
+This QR code opens a website but doesn't send out any data to the developers. You're welcome to email the crash report, though!
+
