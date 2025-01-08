@@ -4,6 +4,7 @@
   - [Features](features.md)
   - [Supported Devices](supported-devices.md)
   - [Installing](installing.md)
+  - [Support](support.md)
 - Development
   - [Application Lifecycle](application-lifecycle.md)
   - [Internal Apps](building-internal-apps.md)
