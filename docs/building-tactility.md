@@ -62,7 +62,10 @@ You'll need:
 
 ### Windows
 
-Install WSL and open the Ubuntu application from your start menu, then follow the Linux guide:
+Install WSL and open the Ubuntu application from your start menu, then follow the Linux guide below.
+
+Note: It was reported that building the project from somewhere in `/mnt/c/` does not work.
+Use a folder somewhere in the home directory instead (`cd ~`).
 
 ### Linux
 
