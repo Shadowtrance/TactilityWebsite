@@ -8,13 +8,13 @@ The currently recommended hardware are the `LilyGo T-Deck` variants due to their
 
 Predefined configurations are available for:
 
-| Device                          | SD card | Power | USB storage | Other     |
-|---------------------------------|---------|-------|-------------|-----------|
-| [LilyGo T-Deck Plus][tdeckplus] | ✅      | ✅    | ✅          | Keyboard  | 
-| [LilyGo T-Deck][tdeck] (1)      | ✅      | ✅    | ✅          | Keyboard  | 
-| [M5Stack Core2][m5stack] (2)    | ✅      | ✅    | ❌          |           |
-| [M5Stack CoreS3][m5stack]       | ✅ (4)  | ✅    | ✅ (4)      |           |
-| Yellow Board<br/>2432S024C (3)  | ✅      | ⏳    | ❌          |           |
+| Device                          | SD card | Power status | USB storage | Other     |
+|---------------------------------|---------|--------------|-------------|-----------|
+| [LilyGo T-Deck Plus][tdeckplus] | ✅      | ✅           | ✅          | Keyboard  | 
+| [LilyGo T-Deck][tdeck] (1)      | ✅      | ✅           | ✅          | Keyboard  | 
+| [M5Stack Core2][m5stack] (2)    | ✅      | ✅           | ❌          |           |
+| [M5Stack CoreS3][m5stack]       | ✅ (4)  | ✅           | ✅ (4)      |           |
+| Yellow Board<br/>2432S024C (3)  | ✅      | ❌           | ❌          |           |
 
 ✅: Capable and implemented<br/>
 ⏳: Capable but not yet implemented<br/>
