@@ -25,6 +25,12 @@ Flash your serial device (often `ttyACM0` or `ttyUSB0`)
 ```bash
 ./flash.sh /dev/ttyACM0
 ```
+_Troubleshooting Linux / macOS_
+
+* _If you get an error like 'function: not found', check if your bash is aliased to another shell without support for functions (like dash). If it is, you can change your bash alias to point to the real bash, or run the above command directly with the absolute path to your copy of bash, (e.g. `/usr/bin/bash ./flash /dev/ttyACM0`)._
+
+* _If you get an error like 'No such file or directory [...] stub_flasher_32s3.json', uninstall your copy of esptools, and reinstall it using pip/pip3. Some package managers (like apt) [don't have the latest binaries](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1043168) for the s3._
+
 
 **Windows**
 
