@@ -6,7 +6,7 @@ Implementing drivers can take some effort, so Tactility provides support for sev
 `LilyGo T-Deck Plus` is currently the best-supported device: all features are working and performance is great.
 
 All implemented devices:
- - [CYD-2432S024C](devices/cyd-2432S024c.md)
+ - [CYD 2432S024C](devices/cyd-2432S024c.md)
  - [LilyGo T-Deck](devices/lilygo-tdeck.md)
  - [LilyGo T-Deck Plus](devices/lilygo-tdeck-plus.md)
  - [M5Stack Core2](devices/m5stack-core2.md)
