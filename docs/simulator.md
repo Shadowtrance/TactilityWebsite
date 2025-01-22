@@ -46,7 +46,8 @@ git clone https://github.com/ByteWelder/Tactility.git --recurse-submodules
 From the project folder, run:
 
 ```sh
-cmake -S ./ -B buildsim && cd buildsim && make && cd -
+cmake -S ./ -B buildsim
+cmake --build buildsim --target AppSim
 ```
 
 Then go to the `Data/` folder and start the executable from there:
