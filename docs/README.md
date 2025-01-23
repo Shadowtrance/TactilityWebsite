@@ -20,10 +20,10 @@ or set up the drivers for your own hardware combination.
 </div>
 
 <div align="center" style="padding-top: 20pt;">
-<strong>Powered by:</strong>
+<strong>Supported by</strong>
 
-[![clion logo](images/CLion.svg)](https://jb.gg/OpenSourceSupport)
+[![unphone logo](images/supporter/unPhone.svg)](https://unphone.net)
+[![clion logo](images/supporter/CLion.svg)](https://jb.gg/OpenSourceSupport)
+[![LILYGO logo](images/supporter/LILYGO.webp)](https://lilygo.cc)
 
-<strong>Supported by:</strong>
-<p style="font-size: 20pt;"><a href="https://lilygo.cc/">LILYGO®</a> & <a href="https://unphone.net/">unPhone</a></p>
 </div>
