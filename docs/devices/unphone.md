@@ -2,7 +2,7 @@
 
 ⚠️ Only Version 9 of the hardware is currently supported.
 
-⚠️ There is a battery drain issue where the battery will drain in about 3 days when the device is switched off. This can permanently decrease the capacity of the battery if you're not charging it in time. 
+⚠️ There is a battery drain issue where the battery will drain in about 3 days when the device is switched off. This can permanently decrease the capacity of the battery if you're not charging it before it is fully depleted. 
 
 ## Features
 
