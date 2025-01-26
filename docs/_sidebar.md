@@ -1,16 +1,12 @@
 ![](images/menu-logo.png "Tactility Logo")
 
-- [Main](/ "Tactility")
+- Main
+  - [Home](/)
   - [Features](features.md)
   - [Installing](installing.md)
   - [Support](support.md)
   - [Supported Devices](supported-devices.md)
 - Development
-  - [Application Lifecycle](application-lifecycle.md)
-  - [Internal Apps](building-internal-apps.md)
-  - [External Apps](building-external-apps.md)
-  - [Building Tactility](building-tactility.md)
-    - [Build Scripts](build-scripts.md)
-    - [Project Structure](project-structure.md)
-  - [Simulator](simulator.md)
-- [Licenses & Copyrights](licenses-and-copyrights.md)
+  - [docs.tactility.one](https://docs.tactility.one)
+- About
+  - [Licenses & Copyrights](licenses-and-copyrights.md)
