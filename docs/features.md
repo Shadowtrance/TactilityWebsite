@@ -17,6 +17,11 @@ Several applications are included to boost productivity, such as a Wi-Fi connect
 
 Build and use the PC simulator to speed up development.
 
+## Hardware & Drivers
+
+Easier and safer access to low level protocols such as I2C, SPI and UART.
+Driver/device abstractions for graphics, touch, keyboard, GPS and more.
+
 ## Crash Reporting with QR
 
 Privacy-concsious crash reporting: When Tactility crashes, it reboots and shows a QR code.
