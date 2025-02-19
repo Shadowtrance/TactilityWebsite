@@ -7,6 +7,8 @@ Implementing drivers can take some effort, so Tactility provides support for sev
 
 All implemented devices:
  - [CYD 2432S024C](devices/cyd-2432S024c.md)
+ - [Elecrow CrowPanel Advance 2.8"](devices/elecrow-crowpanel-advance-28.md)
+ - [Elecrow CrowPanel Basic 2.8"](devices/elecrow-crowpanel-basic-28.md)
  - [LilyGo T-Deck](devices/lilygo-tdeck.md)
  - [LilyGo T-Deck Plus](devices/lilygo-tdeck-plus.md)
  - [M5Stack Core2](devices/m5stack-core2.md)

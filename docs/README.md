@@ -22,8 +22,9 @@ or set up the drivers for your own hardware combination.
 <div align="center" style="padding-top: 20pt;">
 <strong>Supported by</strong>
 
-[![unphone logo](images/supporter/unPhone.svg)](https://unphone.net)
-[![clion logo](images/supporter/CLion.svg)](https://jb.gg/OpenSourceSupport)
+[![CLion logo](images/supporter/CLion.svg)](https://jb.gg/OpenSourceSupport)
+[![Elecrow logo](images/supporter/Elecrow.webp)](https://www.elecrow.com/)
 [![LILYGO logo](images/supporter/LILYGO.webp)](https://lilygo.cc)
+[![unphone logo](images/supporter/unPhone.svg)](https://unphone.net)
 
 </div>
