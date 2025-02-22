@@ -1,10 +1,12 @@
 # Elecrow CrowPanel Basic 2.8"
 
+Note: If the device doesn't power on when connecting a USB cable, press the reset button after plugging in the cable.
+
 ## Features
 
 - ✅ SD card
 - ✅ External ports (UART and I2C)
-- ✅ Power status (estimated from battery voltage when present)
+- ⏳ Power status: hasn't been tested with a battery (battery capacity is estimated from battery voltage when present)
 
 ## Links
 

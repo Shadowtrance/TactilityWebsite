@@ -9,7 +9,9 @@ Another recommendation is the `Elecrow CrowPanel Advance 2.8"`: This device also
 All implemented devices:
  - [CYD 2432S024C](devices/cyd-2432S024c.md)
  - [Elecrow CrowPanel Advance 2.8"](devices/elecrow-crowpanel-advance-28.md)
+ - [Elecrow CrowPanel Advance 3.5"](devices/elecrow-crowpanel-advance-35.md)
  - [Elecrow CrowPanel Basic 2.8"](devices/elecrow-crowpanel-basic-28.md)
+ - [Elecrow CrowPanel Basic 3.5"](devices/elecrow-crowpanel-basic-35.md)
  - [LilyGo T-Deck](devices/lilygo-tdeck.md)
  - [LilyGo T-Deck Plus](devices/lilygo-tdeck-plus.md)
  - [M5Stack Core2](devices/m5stack-core2.md)
