@@ -8,6 +8,10 @@ Another recommendation is the `Elecrow CrowPanel Advance 2.8"`: This device also
 
 All implemented devices:
  - [CYD 2432S024C](devices/cyd-2432S024c.md)
+ - [CYD 4848S040C](devices/cyd-4848s040c.md)
+ - [CYD 8048S043C](devices/cyd-8048s043c.md) (\*)
+ - [CYD JC2432W328C](devices/cyd-jc2432w328c.md) (\*)
+ - [CYD JC8048W550C](devices/cyd-jc8048w550c.md) (\*)
  - [Elecrow CrowPanel Advance 2.8"](devices/elecrow-crowpanel-advance-28.md)
  - [Elecrow CrowPanel Advance 3.5"](devices/elecrow-crowpanel-advance-35.md)
  - [Elecrow CrowPanel Basic 2.8"](devices/elecrow-crowpanel-basic-28.md)
@@ -18,3 +22,4 @@ All implemented devices:
  - [M5Stack CoreS3](devices/m5stack-cores3.md)
  - [unPhone](devices/unphone.md)
 
+ (\*) These boards are not owned by the developer, so quality control is limited to community efforts.
