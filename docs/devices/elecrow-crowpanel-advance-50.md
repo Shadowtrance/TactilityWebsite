@@ -2,6 +2,8 @@
 
 ⚠️ If the device enters a boot loop, it's because of a power issue and the GT911 touch driver. Remove the USB cable and quickly reconnect it to resolve it. Retry if necessary.
 
+⚠️ Device does not power on with a proper USB-C to USB-C cable. Use a USB-C to USB-A cable instead.
+
 ## Features
 
 - ✅ SD card
