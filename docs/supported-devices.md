@@ -24,5 +24,6 @@ All implemented devices:
  - [M5Stack Core2](devices/m5stack-core2.md)
  - [M5Stack CoreS3](devices/m5stack-cores3.md)
  - [unPhone](devices/unphone.md)
+ - [Waveshare ESP32 S3 Touch LCD 4.3"](devices/waveshare-s3-touch-43.md)
 
  (\*) These boards are not owned by the developer, so quality control is limited to community efforts.
