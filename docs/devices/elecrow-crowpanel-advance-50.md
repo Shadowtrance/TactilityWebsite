@@ -1,5 +1,7 @@
 # Elecrow CrowPanel Advance 5.0"
 
+⚠️ If the device enters a boot loop, it's because of a power issue and the GT911 touch driver. Remove the USB cable and quickly reconnect it to resolve it. Retry if necessary.
+
 ## Features
 
 - ✅ SD card
