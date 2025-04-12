@@ -2,9 +2,9 @@
 
 You can install Tactility with the [Web Installer](https://install.tactility.one/). Installing with the _erase_ option is recommended.
 
-Note, for **T-Deck**: You need to manually put the device in boot mode:
-- Press the trackball and the reset button at the same time at the same time.
-- When flashing is done, you might have to press the reset button.
+Note, for **T-Deck**: You might need to manually put the device in boot mode:
+1. Press the trackball and then the reset button at the same time
+2. Let go of the reset button, then the trackball
 
 Alternative methods are described below.
 
