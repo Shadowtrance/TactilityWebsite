@@ -21,6 +21,7 @@ All implemented devices:
  - [Elecrow CrowPanel Basic 5.0"](devices/elecrow-crowpanel-basic-50.md)
  - [LilyGo T-Deck](devices/lilygo-tdeck.md)
  - [LilyGo T-Deck Plus](devices/lilygo-tdeck-plus.md)
+ - [LilyGo T-Lora Pager](devices/lilygo-tlora-pager.md)
  - [M5Stack Core2](devices/m5stack-core2.md)
  - [M5Stack CoreS3](devices/m5stack-cores3.md)
  - [unPhone](devices/unphone.md)
