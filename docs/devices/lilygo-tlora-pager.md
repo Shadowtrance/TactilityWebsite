@@ -4,9 +4,11 @@
 
 - ✅ SD card
 - ✅ Keyboard
+- ✅ Encoder wheel
 - ✅ Power status
 - ✅ USB Storage
 - ✅ GPS (GNSS via MIA-M10Q)
+- ✅ Haptics (basic driver support, vibrate on boot)
 
 ## Not yet implemented
 
@@ -15,7 +17,6 @@
 - Smart sensor: Bosch BHI260AP
 - Real-time clock: NXP PCF85063A
 - Battery charger: Ti BQ25896
-- Haptic driver: Ti DRV2605
 - Audio codec: Everest-semi ES8311
 - GPIO expander: XINLUDA XL9555
 
