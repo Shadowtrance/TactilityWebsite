@@ -8,6 +8,7 @@ Another recommendation is the `Elecrow CrowPanel Advance 2.8"`: This device also
 
 All implemented devices:
  - [CYD 2432S024C](devices/cyd-2432S024c.md)
+ - [CYD 2432S028R](devices/cyd-2432S028r.md)
  - [CYD 2432S032C](devices/cyd-2432S032c.md)
  - [CYD 4848S040C](devices/cyd-4848s040c.md)
  - [CYD 8048S043C](devices/cyd-8048s043c.md) (\*)
