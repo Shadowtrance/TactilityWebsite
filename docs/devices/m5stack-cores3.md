@@ -19,5 +19,5 @@ External I2C is currently not working because it's not getting power to the conn
 ## Links
 
 - [Official documentation](https://docs.m5stack.com/en/core/CoreS3)
-
+- [Official store](https://shop.m5stack.com/products/m5stack-cores3-esp32s3-lotdevelopment-kit)
 

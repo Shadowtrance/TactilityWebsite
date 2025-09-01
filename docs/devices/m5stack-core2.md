@@ -13,4 +13,4 @@
 ## Links
 
 - [Official documentation](https://docs.m5stack.com/en/core/Core2)
-
+- [Official store](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit)

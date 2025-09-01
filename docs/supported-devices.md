@@ -3,12 +3,14 @@
 Any ESP32 device with a touchscreen should be able to run Tactility, because drivers can be implemented for any hardware.
 Implementing drivers can take some effort, so Tactility provides support for several devices.
 
-`LilyGo T-Deck Plus` is currently the best-supported device: all features are working and performance is great.
-Another recommendation is the `Elecrow CrowPanel Advance 2.8"`: This device also has great performance. It offers an extra USB UART and several external ports.
+Recommendations:
+- LilyGO: [LilyGo T-Deck Plus](devices/lilygo-tdeck-plus.md) is currently the best-supported device: all features are working and performance is great.
+- Elecrow: [CrowPanel Advance 2.8"](devices/elecrow-crowpanel-advance-28.md): This device also has great performance. It offers an extra USB UART and several external ports.
+- M5Stack: [Core2](devices/m5stack-core2.md) is recommended.
 
 All implemented devices:
  - [CYD 2432S024C](devices/cyd-2432S024c.md)
- - [CYD 2432S028R](devices/cyd-2432S028r.md)
+ - [CYD 2432S028R](devices/cyd-2432S028r.md) (\*)
  - [CYD 2432S032C](devices/cyd-2432S032c.md)
  - [CYD 4848S040C](devices/cyd-4848s040c.md)
  - [CYD 8048S043C](devices/cyd-8048s043c.md) (\*)
