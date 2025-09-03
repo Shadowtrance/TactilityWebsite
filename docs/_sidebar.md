@@ -6,6 +6,7 @@
   - [Installing](installing.md)
   - [Support](support.md)
   - [Supported Devices](supported-devices.md)
+  - [FAQ](faq.md)
 - Development
   - [docs.tactility.one](https://docs.tactility.one)
 - About
