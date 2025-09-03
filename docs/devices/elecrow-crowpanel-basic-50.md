@@ -1,5 +1,7 @@
 # Elecrow CrowPanel Basic 5.0"
 
+Note: The backlight flickers somewhat. This will be fixed in the future.
+
 ## Features
 
 - ✅ SD card
