@@ -10,10 +10,11 @@ Recommendations:
 
 All implemented devices:
  - [CYD 2432S024C](devices/cyd-2432S024c.md)
- - [CYD 2432S028R](devices/cyd-2432S028r.md) (\*)
+ - [CYD 2432S028R](devices/cyd-2432S028r.md)
  - [CYD 2432S032C](devices/cyd-2432S032c.md)
  - [CYD 4848S040C](devices/cyd-4848s040c.md)
  - [CYD 8048S043C](devices/cyd-8048s043c.md) (\*)
+ - [CYD E32R28T](devices/cyd-e32r28t.md) (\*)
  - [CYD JC2432W328C](devices/cyd-jc2432w328c.md) (\*)
  - [CYD JC8048W550C](devices/cyd-jc8048w550c.md) (\*)
  - [Elecrow CrowPanel Advance 2.8"](devices/elecrow-crowpanel-advance-28.md)
