@@ -23,6 +23,7 @@ or set up the drivers for your own hardware combination.
 [![CLion logo](images/supporter/CLion.svg)](https://jb.gg/OpenSourceSupport)
 [![Elecrow logo](images/supporter/Elecrow.webp)](https://www.elecrow.com/)
 [![LILYGO logo](images/supporter/LILYGO.webp)](https://lilygo.cc)
+[![M5Stack logo](images/supporter/M5Stack.webp)](https://m5stack.com)
 [![unphone logo](images/supporter/unPhone.svg)](https://unphone.net)
 
 </div>
