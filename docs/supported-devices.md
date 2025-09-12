@@ -30,7 +30,8 @@ Recommendations:
 |[M5Stack Core2](devices/m5stack-core2.md)|🟩|🟩|16 MB|🟩|
 |[M5Stack CoreS3](devices/m5stack-cores3.md)|🟩|🟥|16 MB|🟩|
 |[unPhone](devices/unphone.md)|🟩|🟩|8 MB|🟩|
-|[Waveshare ESP32 S3 Touch LCD 4.3"](devices/waveshare-s3-touch-43.md)|🟩|🟥|4 MB|🟥|
+|[Waveshare ESP32 S3 Touch LCD 4.3"](devices/waveshare-s3-touch-lcd-43.md)|🟩|🟥|4 MB|🟥|
+|[Waveshare ESP32 S3 Touch LCD 1.47"](devices/waveshare-s3-touch-lcd-147.md)|🟩|🟩|16 MB|🟥|
 
 Memory: 🟧 = no external RAM, 🟩 = external RAM present
 
