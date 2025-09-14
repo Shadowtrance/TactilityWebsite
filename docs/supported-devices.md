@@ -33,6 +33,8 @@ Recommendations:
 |[unPhone](devices/unphone.md)|🟩|🟩|8 MB|🟩|
 |[Waveshare ESP32 S3 Touch LCD 4.3"](devices/waveshare-s3-touch-lcd-43.md)|🟩|🟥|4 MB|🟥|
 |[Waveshare ESP32 S3 Touch LCD 1.47"](devices/waveshare-s3-touch-lcd-147.md)|🟩|🟩|16 MB|🟥|
+|[Waveshare ESP32 S3 Touch LCD 1.28"](devices/waveshare-s3-touch-lcd-128.md)|🟩|🟩|16 MB|🟥|
+|[Waveshare ESP32 S3 LCD 1.3"](devices/waveshare-s3-lcd-13.md)|🟩|🟩|16 MB|🟥|
 
 Memory: 🟧 = no external RAM, 🟩 = external RAM present
 
