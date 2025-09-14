@@ -6,7 +6,7 @@
 
 - ✅ SD card
 - ✅ Keyboard
-- ⌛ Power status
+- ✅ Power status
 
 ## Links
 
