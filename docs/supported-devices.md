@@ -27,6 +27,7 @@ Recommendations:
 |[LilyGo T-Deck](devices/lilygo-tdeck.md)|🟩|🟩|16 MB|🟩|
 |[LilyGo T-Deck Plus](devices/lilygo-tdeck-plus.md)|🟩|🟩|16 MB|🟩|
 |[LilyGo T-Lora Pager](devices/lilygo-tlora-pager.md)|🟩|🟩|16 MB|🟩|
+|[M5Stack Cardputer](devices/m5stack-cardputer.md)|🟩|🟩|8 MB|🟩|
 |[M5Stack Core2](devices/m5stack-core2.md)|🟩|🟩|16 MB|🟩|
 |[M5Stack CoreS3](devices/m5stack-cores3.md)|🟩|🟥|16 MB|🟩|
 |[unPhone](devices/unphone.md)|🟩|🟩|8 MB|🟩|
