@@ -1,5 +1,7 @@
 # Waveshare ESP32 S3 Touch LCD 1.47"
 
+- ⚠️ Because touch isn't working yet, the only way to launch apps is to override the boot settings via SD card (see Tactility docs)
+
 ## Features
 
 - ✅ SD card
