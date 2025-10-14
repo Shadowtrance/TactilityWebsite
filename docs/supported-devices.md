@@ -36,6 +36,14 @@ Recommendations:
 |[Waveshare ESP32 S3 Touch LCD 1.28"](devices/waveshare-s3-touch-lcd-128.md)|🟩|🟩|16 MB|🟥|
 |[Waveshare ESP32 S3 LCD 1.3"](devices/waveshare-s3-lcd-13.md)|🟩|🟩|16 MB|🟥|
 
+Incubating:
+
+|Name|Memory|SD card|ROM|Ext|
+|-|-|-|-|-|
+|[LilyGo T-Dongle S3](devices/lilygo-tdongle-s3.md)|🟧|🟩|16 MB|🟩|
+|[M5Stack StickC Plus](devices/m5stack-stickc-plus.md)|🟧|🟥|4 MB|🟩|
+|[M5Stack StickC Plus2](devices/m5stack-stickc-plus2.md)|🟩|🟥|8 MB|🟩|
+
 Memory: 🟧 = no external RAM, 🟩 = external RAM present
 
 SD card: 🟩 = working, 🟥 = unavailable/broken/not implemented
