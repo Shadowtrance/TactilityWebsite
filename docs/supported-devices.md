@@ -10,9 +10,10 @@ Recommendations:
 
 |Name|Memory|SD card|ROM|Ext|
 |-|-|-|-|-|
-|[CYD 2432S024C](devices/cyd-2432S024c.md)|🟧|🟩|4 MB|🟩|
-|[CYD 2432S028R](devices/cyd-2432S028r.md)|🟧|🟩|4 MB|🟩|
-|[CYD 2432S032C](devices/cyd-2432S032c.md)|🟧|🟩|4 MB|🟩|
+|[CYD 2432S024C](devices/cyd-2432s024c.md)|🟧|🟩|4 MB|🟩|
+|[CYD 2432S028R](devices/cyd-2432s028r.md)|🟧|🟩|4 MB|🟩|
+|[CYD 2432S028R v3](devices/cyd-2432s028rv3.md)|🟧|🟩|4 MB|🟩|
+|[CYD 2432S032C](devices/cyd-2432s032c.md)|🟧|🟩|4 MB|🟩|
 |[CYD 4848S040C](devices/cyd-4848s040c.md)|🟩|🟥|16 MB|🟥|
 |[CYD 8048S043C](devices/cyd-8048s043c.md)(\*)|🟩|🟩|16 MB|🟥|
 |[CYD E32R28T](devices/cyd-e32r28t.md)(\*)|🟧|🟩|4 MB|🟩|
