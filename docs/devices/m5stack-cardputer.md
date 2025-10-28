@@ -1,7 +1,5 @@
 # M5Stack Cardputer & Cardputer v1.1
 
-⚠️ Cardputer Adv is not (yet) supported. Only the original one and v1.1 are currently supported.
-
 ## Features
 
 - ✅ SD card

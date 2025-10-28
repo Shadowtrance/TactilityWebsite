@@ -17,6 +17,7 @@ Recommendations:
 |[CYD 4848S040C](devices/cyd-4848s040c.md)|🟩|🟥|16 MB|🟥|
 |[CYD 8048S043C](devices/cyd-8048s043c.md)(\*)|🟩|🟩|16 MB|🟥|
 |[CYD E32R28T](devices/cyd-e32r28t.md)(\*)|🟧|🟩|4 MB|🟩|
+|[CYD E32R28T](devices/cyd-e32r32p.md)(\*)|🟧|🟩|4 MB|🟩|
 |[CYD JC2432W328C](devices/cyd-jc2432w328c.md)(\*)|🟧|🟩|4 MB|🟩|
 |[CYD JC8048W550C](devices/cyd-jc8048w550c.md)(\*)|🟩|🟩|16 MB|🟥|
 |[Elecrow CrowPanel Advance 2.8"](devices/elecrow-crowpanel-advance-28.md)|🟩|🟩|16 MB|🟩|
@@ -28,7 +29,8 @@ Recommendations:
 |[LilyGo T-Deck](devices/lilygo-tdeck.md)|🟩|🟩|16 MB|🟩|
 |[LilyGo T-Deck Plus](devices/lilygo-tdeck-plus.md)|🟩|🟩|16 MB|🟩|
 |[LilyGo T-Lora Pager](devices/lilygo-tlora-pager.md)|🟩|🟩|16 MB|🟩|
-|[M5Stack Cardputer](devices/m5stack-cardputer.md)|🟩|🟩|8 MB|🟩|
+|[M5Stack Cardputer](devices/m5stack-cardputer.md)|🟧|🟩|8 MB|🟩|
+|[M5Stack Cardputer Adv](devices/m5stack-cardputer-adv.md)|🟧|🟩|8 MB|🟩|
 |[M5Stack Core2](devices/m5stack-core2.md)|🟩|🟩|16 MB|🟩|
 |[M5Stack CoreS3](devices/m5stack-cores3.md)|🟩|🟥|16 MB|🟩|
 |[unPhone](devices/unphone.md)|🟩|🟩|8 MB|🟩|
