@@ -36,6 +36,7 @@ Recommendations:
 |[LilyGO T-Display S3](devices/lilygo-tdisplay-s3.md)(\*)|🟩|🟩|16 MB|🟩|
 |[LilyGO T-Dongle S3](devices/lilygo-tdongle-s3.md)|🟧|🟩|16 MB|🟩|
 |[LilyGO T-Lora Pager](devices/lilygo-tlora-pager.md)|🟩|🟩|16 MB|🟩|
+|[LilyGO T-HMI](devices/lilygo-thmi.md)|🟩|🟩|16 MB|🟩|
 |[M5Stack Cardputer](devices/m5stack-cardputer.md)|🟧|🟩|8 MB|🟩|
 |[M5Stack Cardputer Adv](devices/m5stack-cardputer-adv.md)|🟧|🟩|8 MB|🟩|
 |[M5Stack Core2](devices/m5stack-core2.md)|🟩|🟩|16 MB|🟩|
