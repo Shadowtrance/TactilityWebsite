@@ -1,9 +1,10 @@
 # M5Stack PaperS3
 
-⚠️ This device implementation is incubating:
+The touch screen isn't super responsive currently. 
 
-- The display works, but the interface doesn't render properly yet in all apps
-- Enabling Wi-Fi hangs the device
+When turning off the device, the Tactility launcher remains visible. The beeper will beep to confirm power off.
+
+Switches in the user interface (e.g. to toggle on/off Wi-Fi) currently aren't visible due to a bug with the theme. This will be fixed in a later iteration.
 
 ## Links
 
