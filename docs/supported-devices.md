@@ -43,6 +43,7 @@ Recommendations:
 |[M5Stack CoreS3](devices/m5stack-cores3.md)|🟩|🟥|16 MB|🟩|
 |[M5Stack StickC Plus](devices/m5stack-stickc-plus.md)|🟧|🟥|4 MB|🟩|
 |[M5Stack StickC Plus2](devices/m5stack-stickc-plus2.md)|🟩|🟥|8 MB|🟩|
+|[M5Stack StickS3](devices/m5stack-sticks3.md)|🟩|🟥|8 MB|🟩|
 |[M5Stack Tab5](devices/m5stack-tab5.md)|🟩|🟩|16 MB|🟩|
 |[unPhone](devices/unphone.md)|🟩|🟩|8 MB|🟩|
 |[Waveshare ESP32 S3 GEEK](devices/waveshare-esp32-s3-geek.md)(\*)|🟩|🟩|16 MB|🟩|
