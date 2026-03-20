@@ -8,9 +8,9 @@ Because the device has very limited user input capabilities, it launches the web
 ## Features
 
 - ✅ SD card - available via common external sd card module you'd find on aliexpress with voltage regulator onboard. Others may work. And uses VSYS (5V) / GND / GPIO-15 / GPIO-16 / GPIO-17 / GPIO-18 pins on the JST SH 1.0 header.
+- ✅ QMI8658C IMU: I2C SDA GPIO-6, I2C SCL GPIO-7, INT1 GPIO-4, INT2 GPIO-3.
 - ⏳ External ports not yet implemented. Only 2 free pins, GPIO-21 and GPIO-33 if the sd card is in use.
-- ⏳ - Power status/Battery: capable, but not yet implemented. ADC, GPIO-1.
-- ⏳ - QMI8658C IMU: I2C SDA GPIO-6, I2C SCL GPIO-7, INT1 GPIO-4, INT2 GPIO-3.
+- ⏳ Power status/Battery: capable, but not yet implemented. ADC, GPIO-1.
 - ⚠️ USB Mass Storage feature: Not working due to having a USB-Serial (CH343P) chip instead of using the native USB pins available on the S3 directly.
 
 ## Links
