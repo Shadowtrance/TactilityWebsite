@@ -1,18 +1,14 @@
 # M5Stack Tab5
 
-⚠️ Only the original type is supported for now ⚠️ 
-
-The original Tab5 hardware revision was discontinued about 2 months after release on October 14th 2025:
-
-> [...] the original independent display driver ILI9881C and touch driver GT911 have been replaced
-
-New units will currently not work yet with Tactility as the display and touch drivers are not compatible.
-I intend to support the new hardware in the future.
+Both hardware variants of the Tab5 are supported.
 
 ## Features
 
 - ✅ SD card
 - ✅ Wi-Fi via ESP32-C6
+- ✅ Sound (I2S)
+- ✅ IO Expanders (both)
+- ✅ BMI270
 
 ## Links
 
