@@ -18,10 +18,10 @@
 | Bluetooth | ✅ | BLE |
 | Backlight control | ✅ | Brightness control |
 | Keyboard backlight | ✅ | Off by default |
+| Audio | ✅ | Everest Semi `ES8311` |
 | NFC | 🚧 | `ST25R3916` |
 | Smart sensor | 🚧 | Bosch `BHI260AP` |
 | Real-time clock | 🚧 | NXP `PCF85063A` |
-| Audio codec | 🚧 | Everest Semi `ES8311` |
 | Touch | ❌ | No touchscreen |
 
 ## Usage notes
