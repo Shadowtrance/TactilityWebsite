@@ -1,20 +1,27 @@
-# LilyGo T-Deck
+# LilyGO T-Deck
 
-## Features
+## Feature support
 
-- SD card
-- Power status
-- USB Storage
-- Keyboard
-- Trackball
-- Grove port
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Power status | ✅ | |
+| USB Mass Storage | ✅ | |
+| Keyboard | ✅ | |
+| Trackball | ✅ | |
+| Grove port | ✅ | |
+| Speaker | ✅ | `MAX98357A` |
+| Microphone | ✅ | `ES7210` |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `GT911` |
+| Backlight control | ✅ | Brightness control |
+| Keyboard backlight | ✅ | |
 
-## Issues
+## Known issues
 
-When a battery is not present, the device sometimes fails to initialize touch. Disconnect the USB cable, wait 5 seconds and try again.
+- Touch: without a battery, the device sometimes fails to initialize touch. Disconnect the USB cable, wait 5 seconds and try again.
 
 ## Links
 
-- [Official GitHub project](https://github.com/Xinyuan-LilyGO/T-Deck)
 - [Product page](https://www.lilygo.cc/products/t-deck)
-
+- [GitHub](https://github.com/Xinyuan-LilyGO/T-Deck)

@@ -1,14 +1,19 @@
 # CYD ES3C28P
 
-CYD or "Cheap Yellow Display".
+A CYD ("Cheap Yellow Display") board.
 
-## Features
+## Feature support
 
-- ✅ SD card
-- ✅ Audio
-- ✅ Battery status
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Audio | ✅ | `ES8311` |
+| Power status | ✅ | Battery voltage via ADC |
+| USB Mass Storage | ✅ | |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `FT5x06` |
+| Backlight control | ✅ | Brightness control |
 
 ## Links
 
 - [Specifications](https://www.lcdwiki.com/res/ES3C28P/2.8inch_IPS_ESP32-S3_ES3C28P_ES3N28P%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf)
-

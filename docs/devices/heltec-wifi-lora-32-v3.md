@@ -1,21 +1,29 @@
 # Heltec WiFi LoRa 32 v3
 
-⚠️ This device implementation is incubating
+> [!NOTE]
+> Support for this device is incubating.
 
-⚠️ There is an issue with the display driver, which causes pixels to be cut off on the right-side of the screen, and renders them on the next row.
+## Feature support
 
-⚠️ The WebServer app starts, but it's not possible to see the password.
+| Feature | Status | Notes |
+|-|-|-|
+| Power status | ✅ | Battery voltage via ADC |
+| LoRa | ✅ | `SX1262` |
+| USB Mass Storage | ✅ | |
+| Button navigation | ✅ | |
+| Bluetooth | ✅ | BLE |
+| Touch | ❌ | No touchscreen |
 
-Because the device has very limited user input capabilities, it launches the web server application by default. The plan is to eventually enable navigation through the interface using its physical buttons.
+## Usage notes
 
-## Features
+The device has very limited input, so it starts the Web Server app by default. Navigation with the physical buttons is planned.
 
-- ✅ Power status
-- ✅ LoRa (SX1262)
+## Known issues
+
+- Display: pixels on the right side of the screen are cut off and rendered on the next row.
+- Web Server: the app starts, but the password can't be viewed on the device.
 
 ## Links
 
-- [Official store](https://heltec.org/project/wifi-lora-32-v3/)
-- [Official wiki](https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/)
-
-
+- [Store](https://heltec.org/project/wifi-lora-32-v3/)
+- [Wiki](https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/)

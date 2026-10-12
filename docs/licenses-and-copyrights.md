@@ -8,8 +8,5 @@ For the Tactility operating system and the Tactility SDK, please refer to:
 - [Licensing details on GitHub](https://github.com/TactilityProject/Tactility/blob/main/LICENSE.md)
 - [Third party notices on GitHub](https://github.com/TactilityProject/Tactility/blob/main/THIRD-PARTY-NOTICES.md)
 
-## FAQ
-
-- Q: Can I build closed source and/or for-profit applications?
-- A: If the applications were built with the Tactility SDK, then they can have a proprietary license. Applications inside the Tactility firmware can't be released with a proprietary license.
-
+Apps built with the Tactility SDK can have a proprietary license, so you can build closed-source and for-profit apps.
+Apps that are part of the Tactility firmware can't be released with a proprietary license.

@@ -1,19 +1,23 @@
 # Waveshare ESP32 S3 Touch LCD 4.3"
 
-⚠️ Note: This is the [regular](https://www.waveshare.com/esp32-s3-touch-lcd-4.3.htm) variant and not the [Type B](https://www.waveshare.com/esp32-s3-touch-lcd-4.3b.htm) variant.
+> [!WARNING]
+> This page covers the [regular](https://www.waveshare.com/esp32-s3-touch-lcd-4.3.htm) variant, not the [Type B](https://www.waveshare.com/esp32-s3-touch-lcd-4.3b.htm) variant.
 
-## Features
+## Feature support
 
-- ✅ SD card
-- ✅ BLE
-- ✅ UART
+| Feature | Status | Notes |
+|-|-|-|
+| UART | ✅ | |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `GT911` |
+| SD card | ⚠️ | Some SD card types don't seem to work |
+| Backlight control | 🚧 | Always on |
 
-## Known Issues
+## Known issues
 
-⚠️ Doesn't seem to support certain types of SD cards.
+- SD card: some SD card types don't seem to be supported.
 
 ## Links
 
-- [Official website](https://www.waveshare.com/esp32-s3-touch-lcd-4.3.htm)
+- [Product page](https://www.waveshare.com/esp32-s3-touch-lcd-4.3.htm)
 - [Official documentation](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3)
-

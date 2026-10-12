@@ -1,35 +1,39 @@
-# LilyGo T-Lora Pager
+# LilyGO T-Lora Pager
 
-## Features
+## Feature support
 
-- ✅ SD card
-- ✅ Keyboard
-- ✅ Encoder wheel
-- ✅ Power status
-- ✅ USB Storage
-- ✅ GPS (GNSS via MIA-M10Q)
-- ✅ Haptics (basic driver support, vibrate on boot)
-- ✅ LoRa (SX1262)
-- ✅ Mesh networking (MeshCore, Meshtastic)
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Keyboard | ✅ | |
+| Encoder wheel | ✅ | |
+| Power status | ✅ | `BQ27220` fuel gauge |
+| USB Mass Storage | ✅ | |
+| GPS | ✅ | GNSS via `MIA-M10Q` |
+| Haptics | ✅ | Basic driver support, vibrates on boot |
+| LoRa | ✅ | `SX1262` |
+| Mesh networking | ✅ | MeshCore, Meshtastic |
+| Battery charger | ✅ | TI `BQ25896` |
+| GPIO expander | ✅ | XINLUDA `XL9555` |
+| Bluetooth | ✅ | BLE |
+| Backlight control | ✅ | Brightness control |
+| Keyboard backlight | ✅ | Off by default |
+| NFC | 🚧 | `ST25R3916` |
+| Smart sensor | 🚧 | Bosch `BHI260AP` |
+| Real-time clock | 🚧 | NXP `PCF85063A` |
+| Audio codec | 🚧 | Everest Semi `ES8311` |
+| Touch | ❌ | No touchscreen |
 
-## Keyboard
+## Usage notes
 
-Note: `SYM` refers to the yellow button in the lower-left corner.
+`SYM` is the yellow button in the lower-left corner.
 
-- Press `SYM`+`SPACE` for `TAB`
-- Press `SYM`+`ENTER` for `ESC`
-
-## Not yet implemented
-
-- NFC: ST25R3916
-- Smart sensor: Bosch BHI260AP
-- Real-time clock: NXP PCF85063A
-- Battery charger: Ti BQ25896
-- Audio codec: Everest-semi ES8311
-- GPIO expander: XINLUDA XL9555
+| Keys | Result |
+|-|-|
+| `SYM` + `SPACE` | `TAB` |
+| `SYM` + `ENTER` | `ESC` |
 
 ## Links
 
 - [Product page](https://lilygo.cc/products/t-lora-pager)
-- [Official Wiki](https://wiki.lilygo.cc/get_started/en/LoRa_GPS/T-LoraPager/T-LoraPager.html)
-
+- [Wiki](https://wiki.lilygo.cc/get_started/en/LoRa_GPS/T-LoraPager/T-LoraPager.html)

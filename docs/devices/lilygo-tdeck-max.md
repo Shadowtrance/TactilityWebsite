@@ -1,27 +1,27 @@
-# LilyGo T-Deck Max
+# LilyGO T-Deck Max
 
-## Features
+## Feature support
 
-- ✅ SD card
-- ✅ Keyboard
-- ✅ Power status
-- ✅ USB Storage
-- ✅ LoRa (SX1262)
-- ✅ Mesh networking (MeshCore, Meshtastic)
-
-
-## Not yet implemented
-
-- GPS
-- Haptics (DRV2605 motor driver)
-- Gyro: Bosch BHI260AP
-- Real-time clock: NXP PCF85063A
-- Battery charger: SY6970,Ti BQ25896
-- Audio codec: Everest-semi ES8311
-- GPIO expander: XINLUDA XL9555
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Keyboard | ✅ | |
+| Power status | ✅ | `BQ27220` fuel gauge |
+| USB Mass Storage | ✅ | |
+| LoRa | ✅ | `SX1262` |
+| Mesh networking | ✅ | MeshCore, Meshtastic |
+| GPS | ✅ | u-blox M10 |
+| Haptics | ✅ | `DRV2605` motor driver |
+| Battery charger | ✅ | `SY6970` (newer revisions). Older revisions with TI `BQ25896` are untested. |
+| GPIO expander | ✅ | XINLUDA `XL9555` |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `CST66xx` |
+| Keyboard backlight | ✅ | Off by default |
+| Gyro | 🚧 | Bosch `BHI260AP` |
+| Real-time clock | 🚧 | NXP `PCF85063A` |
+| Audio codec | 🚧 | Everest Semi `ES8311` |
 
 ## Links
 
 - [Product page](https://lilygo.cc/products/t-deck-max)
-- [Official Wiki](https://wiki.lilygo.cc/products/t-deck-series/t-deck-max/)
-
+- [Wiki](https://wiki.lilygo.cc/products/t-deck-series/t-deck-max/)

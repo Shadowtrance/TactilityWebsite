@@ -1,15 +1,20 @@
 # Tulip Creative Computer 4r11
 
-⚠️ Only variant 4r11 is currently supported.
+> [!WARNING]
+> Only variant 4r11 is supported.
 
-## Features
+## Feature support
 
-Beyond the standard features (wifi, BLE, USB host, etc.), there's also:
-
-- Power status
-- Sound
+| Feature | Status | Notes |
+|-|-|-|
+| Wi-Fi | ✅ | |
+| USB host | ✅ | |
+| Power status | ✅ | Battery voltage via ADC |
+| Sound | ✅ | `PCM5101A` |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `GT911` |
+| Backlight control | ✅ | Brightness control |
 
 ## Links
 
-- [Official website](https://tulip.computer)
-
+- [Product page](https://tulip.computer)

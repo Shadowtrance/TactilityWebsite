@@ -1,21 +1,31 @@
 # Guition JC2432W328C
 
-⚠️ Device does not power on with a proper USB-C to USB-C cable. Use a USB-C to USB-A cable instead.
+> [!WARNING]
+> The device does not power on with a USB-C to USB-C cable. Use a USB-C to USB-A cable instead.
 
-⚠️ The CN1 header silkscreen may be mislabled as GND IO22 IO22 3V3, when it is in fact GND IO22 **IO21** 3V3.
+## Feature support
 
-## Features
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| External I2C | ✅ | CN1 JST SH 1.25 header: GPIO-21 (SDA), GPIO-22 (SCL) |
+| External UART | ✅ | CN1 JST SH 1.25 header: GPIO-21 (RX), GPIO-22 (TX) |
+| Touch | ✅ | `CST816S` |
+| Backlight control | ✅ | Brightness control |
+| Power status | 🚧 | `IP5306` |
+| Speaker | 🚧 | GPIO-26 |
+| Photoresistor | 🚧 | GPIO-34 |
+| Bluetooth | ❌ | Not available in the current firmware |
 
-- ✅ SD card
-- ✅ External ports (UART and I2C) - I2C Enabled on the CN1 JST SH 1.25 header GPIO-21 (SDA)/GPIO-22 (SCL), UART Enabled on the same header GPIO-21 (RX)/GPIO-22 (TX).
-- ⏳ - Power status: capable, but not yet implemented. IP5306, GPIO-??.
-- ⏳ - Speaker output: GPIO-26 not yet implemented
-- ⏳ - Photoresistor: GPIO-34 not yet implemented
+## Usage notes
 
-The "dumb" RGB LED pins are set as output on boot and the LED is turned off. So the same pins on the P6 header are also set as output. RED - GPIO-4, GREEN - GPIO-16, BLUE - GPIO-17.
+The RGB LED pins are set as outputs on boot and the LED is turned off. The matching pins on the P6 header are therefore outputs too: red is GPIO-4, green is GPIO-16, blue is GPIO-17.
+
+## Known issues
+
+- CN1 header: the silkscreen may be mislabeled as `GND IO22 IO22 3V3`. The correct pinout is `GND IO22 IO21 3V3`.
 
 ## Links
 
-- [AliExpress Store @ Guition Store](https://www.aliexpress.com/item/1005006732002132.html) - Capacitive touch
+- [Store (AliExpress, Guition)](https://www.aliexpress.com/item/1005006732002132.html): capacitive touch variant
 - [Documentation (unofficial)](https://github.com/Shadowtrance/jc2432w328c)
-

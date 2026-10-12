@@ -1,12 +1,17 @@
-# LilyGo T-HMI
+# LilyGO T-HMI
 
-## Features
+## Feature support
 
-- ✅ SD card
-- ✅ Power status
-- ✅ USB Storage
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Power status | ✅ | |
+| USB Mass Storage | ✅ | |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | Resistive, `XPT2046` |
+| Backlight control | ✅ | Brightness control |
 
 ## Links
 
 - [Product page](https://lilygo.cc/products/t-hmi)
-- [Official GitHub project](https://github.com/Xinyuan-LilyGO/T-HMI)
+- [GitHub](https://github.com/Xinyuan-LilyGO/T-HMI)

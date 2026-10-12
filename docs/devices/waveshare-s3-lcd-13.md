@@ -1,20 +1,27 @@
 # Waveshare ESP32 S3 LCD 1.3"
 
-⚠️ No Touch: The only way to launch apps is to override the boot settings via SD card (see Tactility docs)
+> [!WARNING]
+> This device has no touchscreen. The only way to launch apps is to override the boot settings via the SD card (see the Tactility docs).
 
-Because the device has very limited user input capabilities, it launches the web server application by default. The plan is to eventually enable navigation through the interface using its physical buttons.
+## Feature support
 
-## Features
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| IMU | ✅ | `QMI8658C`: GPIO-47 (SDA), GPIO-48 (SCL), GPIO-46 (INT1), GPIO-45 (INT2) |
+| Bluetooth | ✅ | BLE |
+| Backlight control | ✅ | Brightness control |
+| External ports | 🚧 | 16 free GPIO on the side pin headers |
+| Power status | 🚧 | ADC on GPIO-6 |
+| RGB LED | 🚧 | `WS2812` on GPIO-15 |
+| USB Mass Storage | ❌ | The USB port is wired to a `CH343P` USB-serial chip instead of the native ESP32-S3 USB pins |
+| Touch | ❌ | No touchscreen |
 
-- ✅ SD card
-- ✅ QMI8658C IMU: I2C SDA GPIO-47, I2C SCL GPIO-48, INT1 GPIO-46, INT2 GPIO-45.
-- ⏳ External ports not yet implemented. 16 free GPIO via the available side pin headers to diy.
-- ⏳ - Power status/Battery: capable, but not yet implemented. ADC, GPIO-6.
-- ⏳ - WS2812 LED: GPIO-15 not yet implemented
-- ⚠️ USB Mass Storage feature: Not working due to having a USB-Serial (CH343P) chip instead of using the native USB pins available on the S3 directly.
+## Usage notes
+
+The device has very limited input, so it starts the Web Server app by default. Navigation with the physical buttons is planned.
 
 ## Links
 
-- [Official website](https://www.waveshare.com/esp32-s3-lcd-1.3.htm)
+- [Product page](https://www.waveshare.com/esp32-s3-lcd-1.3.htm)
 - [Official documentation](https://www.waveshare.com/wiki/ESP32-S3-LCD-1.3)
-

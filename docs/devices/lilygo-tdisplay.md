@@ -1,11 +1,19 @@
-# LilyGo T-Display
+# LilyGO T-Display
 
-## Features
+A small board with 2 buttons, a screen and lots of free pins.
 
-- ✅ It has 2 buttons, a screen and lots of free pins. Go nuts.
-- ⏳ - Power status: capable, but not yet implemented. GPIO-14 via ADC.
+## Feature support
+
+| Feature | Status | Notes |
+|-|-|-|
+| Button navigation | ✅ | Via the 2 buttons |
+| Backlight control | ✅ | Brightness control |
+| Power status | 🚧 | GPIO-14 via ADC |
+| SD card | ❌ | Not present on the hardware |
+| Bluetooth | ❌ | Not available in the current firmware |
+| Touch | ❌ | No touchscreen |
 
 ## Links
 
 - [Product page](https://lilygo.cc/products/t-display)
-- [Official GitHub project](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
+- [GitHub](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)

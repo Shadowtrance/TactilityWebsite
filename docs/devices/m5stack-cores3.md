@@ -1,23 +1,29 @@
 # M5Stack CoreS3
 
-## Features
+## Feature support
 
-- ✅ Power status
-- ⚠️ SD card
-- ⚠️ USB Storage
+| Feature | Status | Notes |
+|-|-|-|
+| Power status | ✅ | `AXP2101` |
+| IMU | ✅ | `BMI270` |
+| Real-time clock | ✅ | `BM8563` |
+| Speaker | ✅ | `AW88298` |
+| Microphone | ✅ | `ES7210` |
+| Camera | ✅ | `GC0308` |
+| Grove port | ✅ | Ports A, B and C |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `FT5x06` |
+| Backlight control | ✅ | Via the `AXP2101` |
+| USB Mass Storage | ⚠️ | Depends on the SD card |
+| External I2C | ⚠️ | The connector is not powered |
+| SD card | ❌ | Hardware design issue (see Known issues) |
 
-## Issues
+## Known issues
 
-(\*) SD card is currently not working once the display is in use. See [this](https://github.com/espressif/esp-bsp/blob/63b99593b7ead04336c0f22e7bc880167d9bfdb6/bsp/m5stack_core_s3/README.md)
-and [this message](https://community.m5stack.com/post/21397). [According to a post online](https://community.m5stack.com/topic/5415/core-s3-sd-tf-card-issues/2),
-this appears to be a hardware design error:
-
-> (...) it looks like the TFT (which also uses SPI) uses MISO as DC. From an ESP32 perspective MISO is an input but DC needs to be an output. So the TFT driver configures the MISO GPIO to an output. This conflicts with the SD card, which is on the same SPI bus and requires MISO to be an input. Not sure how to resolve that so that TFT and SD card can coexist.
-
-External I2C is currently not working because it's not getting power to the connector.
+- SD card: not supported. This appears to be a hardware design error: the display and SD card share the SPI bus, and the display uses `MISO` as its `DC` output pin, while the SD card needs `MISO` as an input. ([ESP-BSP notes](https://github.com/espressif/esp-bsp/blob/63b99593b7ead04336c0f22e7bc880167d9bfdb6/bsp/m5stack_core_s3/README.md), [forum post](https://community.m5stack.com/post/21397), [forum thread](https://community.m5stack.com/topic/5415/core-s3-sd-tf-card-issues/2))
+- External I2C: the connector does not get power, so external I2C devices don't work.
 
 ## Links
 
 - [Official documentation](https://docs.m5stack.com/en/core/CoreS3)
-- [Official store](https://shop.m5stack.com/products/m5stack-cores3-esp32s3-lotdevelopment-kit)
-
+- [Store](https://shop.m5stack.com/products/m5stack-cores3-esp32s3-lotdevelopment-kit)

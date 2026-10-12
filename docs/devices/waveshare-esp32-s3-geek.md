@@ -1,12 +1,19 @@
 # Waveshare ESP32 S3 GEEK
 
-Because the device has very limited user input capabilities, it launches the web server application by default. The plan is to eventually enable navigation through the interface using its physical buttons.
+## Feature support
 
-## Features
+| Feature | Status | Notes |
+|-|-|-|
+| External I2C | ✅ | JST PH 1.0 header: GPIO-16 (SDA), GPIO-17 (SCL) |
+| External UART | ✅ | JST PH 1.0 header: GPIO-44 (RX), GPIO-43 (TX) |
+| Bluetooth | ✅ | BLE |
+| Backlight control | ✅ | Brightness control |
+| USB Mass Storage | ⚠️ | Not yet verified |
+| Touch | ❌ | No touchscreen |
 
-- ✅ USB Storage
-- ✅ External ports (UART and I2C) - Enabled on the JST PH 1.0 headers, I2C GPIO-16 (SDA)/GPIO-17 (SCL), UART GPIO-44 (RX)/GPIO-43 (TX).
-- ⏳ USB Mass Storage: Not yet verified
+## Usage notes
+
+The device has very limited input, so it starts the Web Server app by default. Navigation with the physical buttons is planned.
 
 ## Links
 

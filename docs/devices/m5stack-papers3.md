@@ -1,18 +1,26 @@
 # M5Stack PaperS3
 
-The touch screen isn't super responsive currently. 
+## Feature support
 
-When turning off the device, the Tactility launcher remains visible. The beeper will beep to confirm power off.
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| IMU | ✅ | `BMI270` |
+| Real-time clock | ✅ | `BM8563` |
+| Power status | ✅ | Battery status |
+| USB Mass Storage | ✅ | |
+| Touch | ✅ | `GT911` |
+| Bluetooth | ✅ | BLE |
 
-## Features
+## Usage notes
 
-- ✅ SD card
-- ✅ BMI270 IMU
-- ✅ BM8563 RTC
-- ✅ Power/Battery status
-- ✅ USB Mass Storage
+When you turn the device off, the Tactility launcher stays visible on the e-paper screen. The beeper beeps to confirm power off.
+
+## Known issues
+
+- Touch: the touchscreen isn't very responsive yet.
 
 ## Links
 
 - [Official documentation](https://docs.m5stack.com/en/core/papers3)
-- [Official store](https://shop.m5stack.com/products/m5papers3-esp32s3-development-kit)
+- [Store](https://shop.m5stack.com/products/m5papers3-esp32s3-development-kit)

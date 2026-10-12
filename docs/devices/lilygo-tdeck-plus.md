@@ -1,20 +1,30 @@
-# LilyGo T-Deck Plus
+# LilyGO T-Deck Plus
 
-Note: The internal GPS is wired to the Grove port, so the Grove port cannot be used.
+## Feature support
 
-## Features
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Power status | ✅ | |
+| USB Mass Storage | ✅ | |
+| Keyboard | ✅ | |
+| Trackball | ✅ | |
+| GPS | ✅ | |
+| LoRa | ✅ | `SX1262` |
+| Mesh networking | ✅ | MeshCore, Meshtastic |
+| Speaker | ✅ | `MAX98357A` |
+| Microphone | ✅ | `ES7210` |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `GT911` |
+| Backlight control | ✅ | Brightness control |
+| Keyboard backlight | ✅ | Newer hardware revisions only |
+| Grove port | ❌ | Used by the internal GPS |
 
-- SD card
-- Power status
-- USB Storage
-- Keyboard (backlight is supported on newer hardware)
-- Trackball
-- GPS
-- LoRa (SX1262)
-- Mesh networking (MeshCore, Meshtastic)
+## Known issues
+
+- Grove port: the internal GPS is wired to the Grove port, so the port can't be used for anything else.
 
 ## Links
 
-- [Official GitHub project](https://github.com/Xinyuan-LilyGO/T-Deck)
 - [Product page](https://lilygo.cc/products/t-deck-plus)
-
+- [GitHub](https://github.com/Xinyuan-LilyGO/T-Deck)

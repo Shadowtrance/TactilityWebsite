@@ -1,32 +1,55 @@
 # Features
 
-## Graphical or headless
+Tactility turns ESP32 hardware into a small computer with a real operating system: a launcher, apps, settings, file management and connectivity, all ready to go.
+Install it from your browser, then add apps from the App Hub or build your own.
 
-Tactility comes with a graphical user interface and apps, but it also works without it. You can launch apps via a touchscreen or a human interface device. You can also change how the device boots and automatically start the app that you need.
+## Runs on hardware you can buy today
 
-## External Apps
+More than 50 devices are supported out of the box, from handhelds with keyboards like the LilyGO T-Deck and M5Stack Cardputer to tablets like the M5Stack Tab5 and affordable "Cheap Yellow Display" boards.
+See [Supported Devices](supported-devices.md) for the full list.
 
-Build apps, put them on an SD card and run them. Use LVGL for making standardized user interfaces, or use the built-in core display driver that allows you to directly push pixels to the hardware.
+- **Easy to install**: flash Tactility with the [Web Installer](https://install.tactility.one/). No toolchain needed.
+- **Many types of input**: touchscreens, keyboards, trackballs, encoder wheels and plain buttons all work.
+- **Graphical or headless**: use the full user interface, or run without a display. You can change how the device boots and start the app you need automatically.
 
-## Internal Apps
+## Apps included
 
-Several applications are included to boost productivity. You can have an off-grid chat, use the calculator, monitor the GPIO pins, or debug a UART with the Serial Monitor app. Configuring various features such as Wi-Fi connectivity or GPS devices is easy with the built-in configuration apps.
+Tactility comes with the apps you need to use and explore your device:
 
-## Simulator
+- **Files**: browse, create, copy and move files and folders on the internal storage and SD card.
+- **Terminal**: a command-line shell, right on the device. Run native apps and shell scripts straight from the SD card.
+- **Chat**: off-grid messaging between nearby devices over ESP-NOW. No Wi-Fi network or internet needed.
+- **Mesh tools**: inspect and configure LoRa mesh networks on supported devices.
+- **Notes**, **Image Viewer**, **Camera**, **I2C Scanner**, **System Info** and **Screenshot**.
+- **Settings** for Wi-Fi, Bluetooth, display, audio, GPS, USB, locale, time zone and themes.
 
-Build and use the PC simulator to speed up development on Linux, macOS, or Windows with WSL.
+## App Hub
 
-## Hardware & Drivers
+Install more apps straight from the device with the App Hub. Examples include a calculator, serial console, GPIO monitor, e-book reader, to-do list and games like Snake, Breakout and 2048.
 
-Easier and safer access to low level protocols such as I2C, SPI and UART.
-Driver/device abstractions for graphics, touch, keyboard, GPS and more.
+## Connectivity
 
-## Development
+- **Wi-Fi**: connect to a network, or turn the device into an access point.
+- **Bluetooth**: Bluetooth Low Energy on supported devices.
+- **LoRa mesh networking**: join [Meshtastic](https://meshtastic.org) and [MeshCore](https://meshcore.co.uk) networks on devices with a LoRa radio.
+- **Web dashboard**: manage your device from a browser. Upload and download files, install and run apps, take screenshots and view system information.
+- **USB**: use the device as a USB drive to copy files from your computer. Some devices can also act as a USB host for keyboards, storage and MIDI devices.
 
-Enable the "Development" feature in the settings to install and run apps from your PC to the ESP32 devices over Wi-Fi.
+## Build your own apps
 
-## Crash Reporting with QR
+- **Apps on an SD card**: build apps, put them on an SD card and run them. No need to rebuild the firmware.
+- **LVGL or raw pixels**: use [LVGL](https://lvgl.io) for consistent user interfaces, or push pixels directly to the display with the core display driver.
+- **Install over Wi-Fi**: enable the "Development" feature in the settings to install and run apps from your PC over Wi-Fi.
+- **PC simulator**: build and test on Linux, macOS, or Windows with WSL, without flashing a device.
+- See the [developer documentation](https://docs.tactilityproject.org) to get started.
 
-Privacy-conscious crash reporting: When Tactility crashes, it reboots and shows a QR code.
-This QR code opens a website but doesn't send out any data to the developers. You're welcome to email the crash report, though!
+## Hardware and drivers
 
+Tactility makes it easier and safer to use low-level protocols such as I2C, SPI and UART.
+Drivers share common interfaces for displays, touch, keyboards, GPS, audio, power and more, so apps work across devices.
+Devices are described with device trees, which makes it straightforward to add support for your own hardware.
+
+## Privacy-friendly crash reporting
+
+When Tactility crashes, it reboots and shows a QR code.
+The QR code opens a web page with the crash details, but no data is sent to the developers. You're welcome to email the crash report, though!

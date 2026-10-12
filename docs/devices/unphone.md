@@ -1,18 +1,25 @@
 # unPhone
 
-⚠️ Only Version 9 of the hardware is currently supported.
+> [!WARNING]
+> Only version 9 of the hardware is supported.
 
-⚠️ There is a battery drain issue where the battery will drain in about 3 days when the device is switched off. This can permanently decrease the capacity of the battery if you're not charging it before it is fully depleted. 
+## Feature support
 
-## Features
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Power status | ✅ | Battery level |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | Resistive, `XPT2046` |
+| USB Mass Storage | ⚠️ | Hardware is capable, but it currently doesn't work |
+| Backlight control | ⚠️ | On/off only |
 
-- ✅ SD card
-- USB Mass Storage: capable, but currently not working.
-- Power status: capable, but not yet implemented.
+## Known issues
+
+- Battery drain: a switched-off device drains its battery in about 3 days. Letting the battery fully deplete can permanently reduce its capacity, so charge it regularly.
 
 ## Links
 
-- [Official website](https://unphone.net)
-- [unPhone Library @ GitLab](https://gitlab.com/hamishcunningham/unphonelibrary/)
-- [unPhone main project @ GitLab](https://gitlab.com/hamishcunningham/unphone/)
-
+- [Product page](https://unphone.net)
+- [GitLab (unPhone library)](https://gitlab.com/hamishcunningham/unphonelibrary/)
+- [GitLab (unPhone project)](https://gitlab.com/hamishcunningham/unphone/)

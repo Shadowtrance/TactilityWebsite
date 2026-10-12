@@ -1,16 +1,23 @@
 # Wireless Tag WT32 SC01 Plus
 
-Because the device has very limited user input capabilities, it launches the web server application by default. The plan is to eventually enable navigation through the interface using its physical buttons.
+## Feature support
 
-## Features
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| USB Mass Storage | ✅ | |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `FT6x36` |
+| Backlight control | ✅ | Brightness control |
+| External ports | 🚧 | JST SH 1.25: debug (UART), extended IO, speaker, RS485 |
 
-- ✅ SD card
-- ✅ USB Mass Storage.
-- ⚠️ External ports - not yet implemented. Debug (UART), Extended IO, Speaker, RS485. JST SH 1.25.
+## Usage notes
+
+The device has very limited input, so it starts the Web Server app by default. Navigation with the physical buttons is planned.
 
 ## Links
 
-- [Product Info page](https://en.wireless-tag.com/product-item-26.html)
-- [BSP repository](https://github.com/smartpanle/QMSD-ESP32-BSP)
-- [Driver & examples repository](https://github.com/smartpanle/PanelLan_esp32_arduino)
-- [Unofficial documentation repository](https://github.com/Cesarbautista10/WT32-SC01-Plus-ESP32)
+- [Product page](https://en.wireless-tag.com/product-item-26.html)
+- [GitHub (BSP)](https://github.com/smartpanle/QMSD-ESP32-BSP)
+- [GitHub (drivers and examples)](https://github.com/smartpanle/PanelLan_esp32_arduino)
+- [Documentation (unofficial)](https://github.com/Cesarbautista10/WT32-SC01-Plus-ESP32)

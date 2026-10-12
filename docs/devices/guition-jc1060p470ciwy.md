@@ -1,23 +1,27 @@
 # Guition JC1060P470C-I-W-Y
 
-## Features
+## Feature support
 
-- ✅ SD card
-- ✅ Wi-Fi (via C6)
-- ⏳ External ports: Not yet implemented
-- ⏳ Camera: Not yet implemented
-- ⏳ Speaker: Not yet implemented
-- ⏳ Ethernet: Not yet implemented
-- ⏳ RTC: Not yet implemented
+| Feature | Status | Notes |
+|-|-|-|
+| Wi-Fi | ✅ | Via the ESP32-C6 |
+| Power status | ✅ | Battery voltage via ADC |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `GT911` |
+| Backlight control | ✅ | Brightness control |
+| SD card | ⚠️ | Some SD card types don't seem to work |
+| External ports | 🚧 | |
+| Camera | 🚧 | |
+| Speaker | 🚧 | |
+| Ethernet | 🚧 | |
+| Real-time clock | 🚧 | |
 
-## Known Issues
+## Known issues
 
-⚠️ The display sometimes glitches when reading/writing files from SD card.
-
-⚠️ Doesn't seem to support certain types of SD cards.
+- Display: sometimes glitches while reading from or writing to the SD card.
+- SD card: some SD card types don't seem to be supported.
 
 ## Links
 
-- [AliExpress Guition Factory Store](https://www.aliexpress.com/item/1005010425193499.html) - Capacitive touch
-- [ZIP file with docs & examples](http://pan.jczn1688.com/directlink/1/HMI%20display/JC1060P470C_I_W_Y.zip) ⚠️ unsafe HTTP link, use at your own risk!
-
+- [Store (AliExpress, Guition)](https://www.aliexpress.com/item/1005010425193499.html): capacitive touch variant
+- [ZIP file with documentation and examples](http://pan.jczn1688.com/directlink/1/HMI%20display/JC1060P470C_I_W_Y.zip): unsafe HTTP link, use at your own risk

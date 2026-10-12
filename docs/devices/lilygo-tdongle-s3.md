@@ -1,17 +1,23 @@
-# LilyGo T-Dongle S3
+# LilyGO T-Dongle S3
 
-⚠️ This device implementation is incubating
+> [!NOTE]
+> Support for this device is incubating. It runs Tactility, but there's currently no way to control it or install apps without forking the firmware and changing the code. Remote setup via Wi-Fi is planned.
 
-The device is technically implemented, but there's currently no way to control it or put apps on it without forking the firmware and changing the code. Support for remote setup via Wi-Fi will be implemented at a later stage.
+## Feature support
 
-⚠️ The main limitation stems from the S3 chip not having PSRAM. This leaves 0 bytes of executable RAM (even when plenty of IRAM is available) because of the way that the S3 chip works. Further investigation is needed to figure out whether executable RAM can be pre-allocated.
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| USB Mass Storage | ✅ | |
+| Bluetooth | ✅ | BLE |
+| Backlight control | ✅ | Brightness control |
+| Touch | ❌ | No touchscreen |
 
-## Features
+## Known issues
 
-- ✅ SD card
-- ✅ USB Storage
+- Memory: the ESP32-S3 on this board has no PSRAM. Because of how the S3 works, this leaves 0 bytes of executable RAM, even when plenty of IRAM is free. It is still being investigated whether executable RAM can be pre-allocated.
 
 ## Links
 
 - [Product page](https://lilygo.cc/products/t-dongle-s3)
-- [Official GitHub project](https://github.com/Xinyuan-LilyGO/T-Dongle-S3/tree/main)
+- [GitHub](https://github.com/Xinyuan-LilyGO/T-Dongle-S3/tree/main)

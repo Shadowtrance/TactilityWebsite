@@ -1,17 +1,20 @@
 # Waveshare ESP32 S3 Touch LCD 1.47"
 
-⚠️ Touch isn't working yet
+## Feature support
 
-Because the device has very limited user input capabilities, it launches the web server application by default. The plan is to eventually enable navigation through the interface using its physical buttons.
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Bluetooth | ✅ | BLE |
+| Backlight control | ✅ | Brightness control |
+| Touch | ⚠️ | `AXS5106`. Not working: touch driver/configuration is broken |
+| USB Mass Storage | ⚠️ | Not yet verified |
 
-## Features
+## Usage notes
 
-- ✅ SD card
-- ⏳ USB Mass Storage feature: Unable to verify
-- ⚠️ Touch is not working (touch driver/config broken)
+The device has very limited input, so it starts the Web Server app by default. Navigation with the physical buttons is planned.
 
 ## Links
 
-- [Official website](https://www.waveshare.com/esp32-s3-touch-lcd-1.47.htm)
+- [Product page](https://www.waveshare.com/esp32-s3-touch-lcd-1.47.htm)
 - [Official documentation](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-1.47)
-

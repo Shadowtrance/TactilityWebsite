@@ -1,15 +1,23 @@
 # M5Stack StackChan
 
-## Features
+## Feature support
 
-- ✅ SD card
-- ✅ USB Storage
-- ✅ INA226 Power Monitoring, Charging status, battery
-- ✅ BMI270 IMU
-- ✅ BM8563 RTC
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| USB Mass Storage | ✅ | |
+| Power status | ✅ | `INA226` power monitoring, charging status, battery |
+| IMU | ✅ | `BMI270` |
+| Real-time clock | ✅ | `BM8563` |
+| Speaker | ✅ | `AW88298` |
+| Microphone | ✅ | `ES7210` |
+| Camera | ✅ | `GC0308` |
+| Grove port | ✅ | Ports A, B and C |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `FT5x06` |
+| Backlight control | ✅ | Via the `AXP2101` |
 
 ## Links
 
 - [Official documentation](https://docs.m5stack.com/en/StackChan)
-- [Official store](https://shop.m5stack.com/products/stackchan-kawaii-co-created-open-source-ai-desktop-robot)
-
+- [Store](https://shop.m5stack.com/products/stackchan-kawaii-co-created-open-source-ai-desktop-robot)

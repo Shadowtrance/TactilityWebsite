@@ -1,16 +1,21 @@
 # Seeed Studio Wio Tracker L2 Pro
 
-## Features
+## Feature support
 
-- ✅ SD card
-- ✅ Sound (speaker + microphone)
-- ✅ Power status
-- ✅ LoRa (SX1262)
-- ✅ Mesh networking (MeshCore, Meshtastic)
-- ✅ GPS
-- ✅ Grove
-- ✅ USB Storage
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| Sound | ✅ | Speaker and microphone |
+| Power status | ✅ | |
+| LoRa | ✅ | `SX1262` |
+| Mesh networking | ✅ | MeshCore, Meshtastic |
+| GPS | ✅ | |
+| Grove port | ✅ | |
+| USB Mass Storage | ✅ | |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `GT911` |
+| Backlight control | ✅ | `LP5814` |
 
 ## Links
 
-- [Official Wiki](https://wiki.seeedstudio.com/meshtastic_wio_tracker_l2_intro/)
+- [Wiki](https://wiki.seeedstudio.com/meshtastic_wio_tracker_l2_intro/)

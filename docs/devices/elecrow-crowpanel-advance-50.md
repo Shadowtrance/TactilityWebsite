@@ -1,19 +1,25 @@
 # Elecrow CrowPanel Advance 5.0"
 
-⚠️ If the device enters a boot loop, it's because of a power issue and the GT911 touch driver. Remove the USB cable and quickly reconnect it to resolve it. Retry if necessary.
+> [!WARNING]
+> The device does not power on with a USB-C to USB-C cable. Use a USB-C to USB-A cable instead.
 
-⚠️ Device does not power on with a proper USB-C to USB-C cable. Use a USB-C to USB-A cable instead.
+## Feature support
 
-## Features
+| Feature | Status | Notes |
+|-|-|-|
+| SD card | ✅ | |
+| External ports | ✅ | UART and I2C |
+| Bluetooth | ✅ | BLE |
+| Touch | ✅ | `GT911` |
+| USB Mass Storage | ⚠️ | Configured, but not yet verified |
+| Backlight control | ⚠️ | On/off only |
 
-- ✅ SD card
-- ✅ External ports (UART and I2C)
-- ⏳ USB Mass Storage: TBD
-- ⏳ Display backlight control: Not yet implemented
+## Known issues
+
+- Boot loop: caused by a power issue combined with the `GT911` touch driver. Unplug the USB cable and quickly reconnect it. Retry if necessary.
 
 ## Links
 
-- [Elecrow product page](https://www.elecrow.com/crowpanel-advance-5-0-hmi-esp32-ai-display-800x480-ips-artificial-intelligent-touch-screen.html)
-- [Elecrow documentation](https://www.elecrow.com/pub/wiki/CrowPanel_Advance_5.0-HMI_ESP32_AI_Display.html)
-- [Elecrow GitHub project](https://github.com/Elecrow-RD/CrowPanel-Advance-HMI-ESP32-AI-Display)
-
+- [Product page](https://www.elecrow.com/crowpanel-advance-5-0-hmi-esp32-ai-display-800x480-ips-artificial-intelligent-touch-screen.html)
+- [Official documentation](https://www.elecrow.com/pub/wiki/CrowPanel_Advance_5.0-HMI_ESP32_AI_Display.html)
+- [GitHub](https://github.com/Elecrow-RD/CrowPanel-Advance-HMI-ESP32-AI-Display)
