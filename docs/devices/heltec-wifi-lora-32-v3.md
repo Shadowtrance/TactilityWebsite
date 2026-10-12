@@ -11,6 +11,7 @@ Because the device has very limited user input capabilities, it launches the web
 ## Features
 
 - ✅ Power status
+- ✅ LoRa (SX1262)
 
 ## Links
 

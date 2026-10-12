@@ -6,6 +6,7 @@
 - ✅ Sound (speaker + microphone)
 - ✅ Power status
 - ✅ LoRa (SX1262)
+- ✅ Mesh networking (MeshCore, Meshtastic)
 - ✅ GPS
 - ✅ Grove
 - ✅ USB Storage

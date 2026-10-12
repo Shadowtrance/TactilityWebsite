@@ -10,6 +10,8 @@ Note: The internal GPS is wired to the Grove port, so the Grove port cannot be u
 - Keyboard (backlight is supported on newer hardware)
 - Trackball
 - GPS
+- LoRa (SX1262)
+- Mesh networking (MeshCore, Meshtastic)
 
 ## Links
 

@@ -9,6 +9,8 @@
 - ✅ USB Storage
 - ✅ GPS (GNSS via MIA-M10Q)
 - ✅ Haptics (basic driver support, vibrate on boot)
+- ✅ LoRa (SX1262)
+- ✅ Mesh networking (MeshCore, Meshtastic)
 
 ## Keyboard
 
@@ -19,7 +21,6 @@ Note: `SYM` refers to the yellow button in the lower-left corner.
 
 ## Not yet implemented
 
-- LoRa: Semtech SX1262
 - NFC: ST25R3916
 - Smart sensor: Bosch BHI260AP
 - Real-time clock: NXP PCF85063A

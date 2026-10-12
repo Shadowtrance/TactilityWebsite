@@ -6,13 +6,14 @@
 - ✅ Keyboard
 - ✅ Power status
 - ✅ USB Storage
+- ✅ LoRa (SX1262)
+- ✅ Mesh networking (MeshCore, Meshtastic)
 
 
 ## Not yet implemented
 
 - GPS
 - Haptics (DRV2605 motor driver)
-- LoRa: Semtech SX1262
 - Gyro: Bosch BHI260AP
 - Real-time clock: NXP PCF85063A
 - Battery charger: SY6970,Ti BQ25896
