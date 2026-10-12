@@ -5,7 +5,7 @@ Some hardware combinations are officially supported.
 
 The [Tab5](devices/m5stack-tab5.md) currently performs best and has the most features.
 
-|Name|Memory|SD card|⭐|
+|Name|Memory|SD card|Badge|
 |-|-|-|-|
 |[BigTreeTech Panda Touch & K Touch](devices/btt-panda-touch.md)(\*)|🟩|🟥| |
 |[CL-32](devices/cl32.md)|🟩|🟩| |
@@ -61,7 +61,7 @@ The [Tab5](devices/m5stack-tab5.md) currently performs best and has the most fea
 
 Incubating:
 
-|Name|Memory|SD card|⭐|
+|Name|Memory|SD card|Badge|
 |-|-|-|-|
 |[M5Stack PaperS3](devices/m5stack-papers3.md)|🟩|🟩| |
 |[Heltec WiFi LoRa 32 v3](devices/heltec-wifi-lora-32-v3.md)|🟧|🟥| |
