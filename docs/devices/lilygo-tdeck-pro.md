@@ -1,7 +1,7 @@
 # LilyGO T-Deck Pro
 
 > [!WARNING]
-> Only hardware revision 1.0 is supported, not 1.1. Support for this device is incubating: the e-paper display doesn't work reliably yet. Use at your own risk.
+> Only hardware revision 1.0 is supported, not 1.1.
 
 ## Feature support
 

@@ -12,10 +12,6 @@
 | Touch | ✅ | `GT911` |
 | Bluetooth | ✅ | BLE |
 
-## Usage notes
-
-When you turn the device off, the Tactility launcher stays visible on the e-paper screen. The beeper beeps to confirm power off.
-
 ## Known issues
 
 - Touch: the touchscreen isn't very responsive yet.

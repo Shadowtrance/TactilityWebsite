@@ -32,6 +32,7 @@ The [Tab5](devices/m5stack-tab5.md) currently performs best and has the most fea
 |[Guition JC8048W550C](devices/guition-jc8048w550c.md)|🟩|🟩| |
 |[LilyGO T-Deck](devices/lilygo-tdeck.md)|🟩|🟩| |
 |[LilyGO T-Deck Plus](devices/lilygo-tdeck-plus.md)|🟩|🟩|⭐|
+|[LilyGO T-Deck Pro](devices/lilygo-tdeck-pro.md)|🟩|🟩| |
 |[LilyGO T-Deck Max](devices/lilygo-tdeck-max.md)(\*)|🟩|🟩| |
 |[LilyGO T-Display](devices/lilygo-tdisplay.md)(\*)|🟧|🟥| |
 |[LilyGO T-Display S3](devices/lilygo-tdisplay-s3.md)(\*)|🟩|🟥| |
@@ -45,6 +46,7 @@ The [Tab5](devices/m5stack-tab5.md) currently performs best and has the most fea
 |[M5Stack Cardputer Adv](devices/m5stack-cardputer-adv.md)|🟧|🟩|⭐|
 |[M5Stack Core2](devices/m5stack-core2.md)|🟩|🟩| |
 |[M5Stack CoreS3](devices/m5stack-cores3.md)|🟩|🟥| |
+|[M5Stack PaperS3](devices/m5stack-papers3.md)|🟩|🟩| |
 |[M5Stack StackChan](devices/m5stack-stackchan.md)(\*)|🟩|🟩| |
 |[M5Stack StickC Plus2](devices/m5stack-stickc-plus2.md)|🟩|🟥| |
 |[M5Stack StickS3](devices/m5stack-sticks3.md)(\*)|🟩|🟥| |
@@ -63,9 +65,7 @@ Incubating:
 
 |Name|Memory|SD card|Badge|
 |-|-|-|-|
-|[M5Stack PaperS3](devices/m5stack-papers3.md)|🟩|🟩| |
 |[Heltec WiFi LoRa 32 v3](devices/heltec-wifi-lora-32-v3.md)|🟧|🟥| |
-|[LilyGO T-Deck Pro](devices/lilygo-tdeck-pro.md)|🟩|🟩| |
 
 
 Memory: 🟧 = no external RAM, 🟩 = external RAM present
